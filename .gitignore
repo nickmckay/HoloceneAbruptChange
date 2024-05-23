@@ -1,3 +1,9 @@
+#Output directories
+Code/analysis_code/new_output/
+
+# Secret files
+.secret/
+
 # History files
 .Rhistory
 .Rapp.history
@@ -48,3 +54,4 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 .DS_Store
+*.rds

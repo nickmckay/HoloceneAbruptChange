@@ -1,3 +1,26 @@
+library(tidyverse)
+
+root_dir   <- 'analysis_code/'
+output_dir <- file.path(root_dir,'new_output/')
+figure_dir <- file.path(output_dir,'figures/')
+map_dir <- file.path(figure_dir,"allMaps/")
+data_dir <- file.path(output_dir,'data/')
+processed_data_dir <- file.path(output_dir,'processed_data/')
+
+
+#load in preprocessed data
+if(!exists("bigData")){
+  load(paste0(processed_data_dir,"/bigData.RData"))
+}
+
+if(!exists("bigDataHydro")){
+  load(paste0(processed_data_dir,"/bigDataHydro.RData"))
+}
+
+if(!exists("bigDataTemp")){
+  load(paste0(processed_data_dir,"/bigDataTemp.RData"))
+}
+
 #data coverage figures
 temp <- select(bigData,
                paleoData_TSid,
@@ -43,7 +66,7 @@ map <- ggplot() +
   scale_fill_brewer(palette = "Paired",limits = uarchs) +
   scale_shape_manual(values = c(24,22,21)) +
   guides(fill = guide_legend(override.aes=list(shape=21),order = 1),
-         shape = guide_legend(direction = "vertical"))+
+         shape = guide_legend(direction = "vertical"),)+
   cowplot::theme_minimal_grid()+
   theme(legend.title = element_blank(),
         legend.position = "top")+
@@ -54,7 +77,7 @@ map <- ggplot() +
            datum = sf::st_crs(4326),
            default_crs = sf::st_crs(4326))
 
-ggsave(map,filename = "T&P_map.png",bg = "white")
+ggsave(map,filename = file.path(figure_dir,"T&P_map.png"),bg = "white")
 
 #data coverage figures
 temp <- select(bigDataTemp,paleoData_TSid:paleoData_values)
@@ -68,7 +91,7 @@ ta <- geoChronR::plotTimeAvailabilityTs(tempTS,age.range = c(0,12000), age.var =
   scale_fill_brewer(palette = "Paired",limits = uarchs) +
   theme(legend.position = "none") +
   scale_x_reverse("Age (yr BP)",breaks = seq(12000,0,by = -2000),position = "bottom",expand = c(0.01,0.01)) +
-  scale_y_continuous("Age (yr BP)",position = "left",expand = c(0.01,0.01),limits = c(0,800))+
+  scale_y_continuous("Count",position = "left",expand = c(0.01,0.01),limits = c(0,800))+
   #geom_text(aes(x = 11000,y = 800),label = "Temperature") +
   ggtitle("Temperature") +
   theme_bw() +
@@ -86,7 +109,7 @@ ha <- geoChronR::plotTimeAvailabilityTs(hydroTS,age.range = c(0,12000), age.var 
   scale_fill_brewer(palette = "Paired",limits = uarchs) +
   theme(legend.position = "none") +
   scale_x_reverse("Age (yr BP)",breaks = seq(12000,0,by = -2000),expand = c(0.01,0.01)) +
-  scale_y_continuous("Age (yr BP)",limits = c(0,800),position = "right",expand = c(0.01,0.01))+
+  scale_y_continuous("Count",limits = c(0,800),position = "right",expand = c(0.01,0.01))+
   ggtitle("Hydroclimate") +
   #geom_text(aes(x = 11000,y = 800),label = "Hydroclimate") +
   theme_bw() +
@@ -101,6 +124,6 @@ lay <- rbind(c(1,1,1,1),
 
 out <- gridExtra::arrangeGrob(grobs = list(map,ta,ha),layout_matrix = lay)
 
-ggsave(out,filename = "ExcursionDataAbruptChange_spacetime.pdf",width = 9,height = 7)
+ggsave(out,filename = file.path(figure_dir,"ExcursionDataAbruptChange_spacetime.pdf"),width = 6.5,height = 5.5)
 
 
