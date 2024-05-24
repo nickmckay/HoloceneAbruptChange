@@ -10,9 +10,9 @@ figure_dir <- file.path(output_dir,'figures/')
 map_dir <- file.path(figure_dir,"allMaps/")
 data_dir <- file.path(output_dir,'data/')
 processed_data_dir <- file.path(output_dir,'processed_data/')
-set.seed(3) #for reproducibility
 
 source(file.path(root_dir,"helperFunctions.R"))
+
 
 #load in preprocessed data
 if(!exists("bigData")){
@@ -27,49 +27,31 @@ if(!exists("bigDataTemp")){
   load(paste0(processed_data_dir,"/bigDataTemp.RData"))
 }
 
+set.seed(82) #for reproducibility
 
 
+# Create equal area grid to calculate weights -----------------------------
 weight.distance <- 1500
-
 dggs   <- dggridR::dgconstruct(spacing=weight.distance, metric=TRUE)
-
 
 bigData$event.yr <- as.numeric(bigData$event.yr)
 allTimes <- sort(unique(bigData$event.yr))
 
-hydroGlobal <- tempGlobal <-  bothGlobal <- vector(mode = "list",length = length(allTimes))
+#use purrr and actr to calculate the fraction and significance of every timestep
+globalTimeSeries <- purrr::map(allTimes,
+                               calculateTimeSeries,
+                               bigDataHydro = bigDataHydro,
+                               bigDataTemp = bigDataTemp,
+                               .progress = TRUE)
 
-for(i in 1:length(allTimes)){
-  cat(paste(round(100* i/length(allTimes)),"%\r"))
-
-
-  thisHydro <- filter(bigDataHydro,event.yr == allTimes[i]) |>
-    selectAndWeight(dist.cut = weight.distance,dggs)
-
-  hydroGlobal[[i]] <-  actR::calculateMultiTestSignificance(thisHydro,thisHydro$weight)  |>
-    as_tibble()
-
-  thisTemp <- filter(bigDataTemp,event.yr == allTimes[i])|>
-    selectAndWeight(dist.cut = weight.distance,dggs)
-
-  tempGlobal[[i]] <-  actR::calculateMultiTestSignificance(thisTemp,thisTemp$weight)  |>
-    as_tibble()
-
-  bothGlobal[[i]] <- calculateBothMultiTestSignificance(events1 = thisHydro,
-                                                        events2 = thisTemp,
-                                                        weights1 = thisHydro$weight,
-                                                        weights2 = thisTemp$weight) |>
-    as_tibble()
-}
-
-
-hgdf <- list_rbind(hydroGlobal)
-tgdf <- list_rbind(tempGlobal)
-bgdf <- list_rbind(bothGlobal)
-
+#pull out data
+hgdf <- map(globalTimeSeries,pluck,1) |> list_rbind()
+tgdf <- map(globalTimeSeries,pluck,2) |> list_rbind()
+bgdf <- map(globalTimeSeries,pluck,3) |> list_rbind()
 
 hgdf$age <- tgdf$age <- bgdf$age <-  allTimes
 
+#calculate p-value after adjusting for False Discovery Rate (FDR)
 effN <- nrow(hgdf)/2 #account for non-independence of tests
 
 hgdf <- testFdr(hgdf,effN)

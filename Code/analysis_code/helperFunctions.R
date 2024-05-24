@@ -246,3 +246,26 @@ getSpatialMeanData <- function(pval.grid.weight){
 
   return(tots)
 }
+
+
+calculateTimeSeries <- function(time,bigDataHydro,bigDataTemp){
+  thisHydro <- dplyr::filter(bigDataHydro,event.yr == !!time) |>
+    selectAndWeight(dist.cut = weight.distance,dggs)
+
+  hydroGlobal <-  actR::calculateMultiTestSignificance(thisHydro,thisHydro$weight)  |>
+    as_tibble()
+
+  thisTemp <- dplyr::filter(bigDataTemp,event.yr == !!time) |>
+    selectAndWeight(dist.cut = weight.distance,dggs)
+
+  tempGlobal <-  actR::calculateMultiTestSignificance(thisTemp,thisTemp$weight)  |>
+    as_tibble()
+
+  bothGlobal <- calculateBothMultiTestSignificance(events1 = thisHydro,
+                                                   events2 = thisTemp,
+                                                   weights1 = thisHydro$weight,
+                                                   weights2 = thisTemp$weight) |>
+    as_tibble()
+
+  return(list(hydroGlobal,tempGlobal,bothGlobal))
+}

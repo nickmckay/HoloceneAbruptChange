@@ -65,10 +65,13 @@ map <- ggplot() +
   scale_y_continuous("",breaks = c(-87.5,seq(-60,60,by = 30),87.5)) +
   scale_fill_brewer(palette = "Paired",limits = uarchs) +
   scale_shape_manual(values = c(24,22,21)) +
-  guides(fill = guide_legend(override.aes=list(shape=21),order = 1),
+  #geom_text(aes(x = -200,y = 0),label = "a)") +
+  guides(fill = guide_legend(override.aes=list(shape=21),direction = "horizontal",
+                             order = 1),
          shape = guide_legend(direction = "vertical"),)+
   cowplot::theme_minimal_grid()+
   theme(legend.title = element_blank(),
+        legend.key.spacing = unit(0.1, "cm"),
         legend.position = "top")+
   coord_sf(xlim=c(-180,180),
            ylim = c(-90,90),
@@ -77,7 +80,7 @@ map <- ggplot() +
            datum = sf::st_crs(4326),
            default_crs = sf::st_crs(4326))
 
-ggsave(map,filename = file.path(figure_dir,"T&P_map.png"),bg = "white")
+map
 
 #data coverage figures
 temp <- select(bigDataTemp,paleoData_TSid:paleoData_values)
@@ -92,7 +95,7 @@ ta <- geoChronR::plotTimeAvailabilityTs(tempTS,age.range = c(0,12000), age.var =
   theme(legend.position = "none") +
   scale_x_reverse("Age (yr BP)",breaks = seq(12000,0,by = -2000),position = "bottom",expand = c(0.01,0.01)) +
   scale_y_continuous("Count",position = "left",expand = c(0.01,0.01),limits = c(0,800))+
-  #geom_text(aes(x = 11000,y = 800),label = "Temperature") +
+  #geom_text(aes(x = 11000,y = 800),label = "b)") +
   ggtitle("Temperature") +
   theme_bw() +
   theme(legend.position = "none",plot.margin=unit(c(-1,0.25,0.25,0.25), "cm"))
@@ -111,7 +114,7 @@ ha <- geoChronR::plotTimeAvailabilityTs(hydroTS,age.range = c(0,12000), age.var 
   scale_x_reverse("Age (yr BP)",breaks = seq(12000,0,by = -2000),expand = c(0.01,0.01)) +
   scale_y_continuous("Count",limits = c(0,800),position = "right",expand = c(0.01,0.01))+
   ggtitle("Hydroclimate") +
-  #geom_text(aes(x = 11000,y = 800),label = "Hydroclimate") +
+  #geom_text(aes(x = 11000,y = 800),label = "c)") +
   theme_bw() +
   theme(legend.position = "none",plot.margin=unit(c(-1,0.25,0.25,0.25), "cm"))
 
@@ -124,6 +127,6 @@ lay <- rbind(c(1,1,1,1),
 
 out <- gridExtra::arrangeGrob(grobs = list(map,ta,ha),layout_matrix = lay)
 
-ggsave(out,filename = file.path(figure_dir,"ExcursionDataAbruptChange_spacetime.pdf"),width = 6.5,height = 5.5)
+ggsave(out,filename = file.path(figure_dir,"ExcursionDataAbruptChange_spacetime.pdf"),width = 8.5,height = 7)
 
 

@@ -12,6 +12,7 @@ map_dir <- file.path(figure_dir,"allMaps/")
 data_dir <- file.path(output_dir,'data/')
 processed_data_dir <- file.path(output_dir,'processed_data/')
 
+
 #load in preprocessed data
 if(!exists("bigData")){
   load(paste0(processed_data_dir,"/bigData.RData"))

@@ -21,20 +21,22 @@ excursionsByDatasetHydro <- bigDataHydro %>%
   summarize(significantWet = getSigTimes(midPointTime,
                                               pvalue_positive),
             significantDry = getSigTimes(midPointTime,
-                                          pvalue_negative))
+                                          pvalue_negative),
+            lat = unique(geo_latitude))
 
 excursionsByDatasetTemp <- bigDataTemp %>%
   group_by(dataSetName) %>%
   summarize(significantWarm = getSigTimes(midPointTime,
                                          pvalue_positive),
             significantCold = getSigTimes(midPointTime,
-                                         pvalue_negative))
+                                         pvalue_negative),
+            lat = unique(geo_latitude))
 
-excursionsByDataset <- full_join(excursionsByDatasetTemp,excursionsByDatasetHydro,by = "dataSetName")
+excursionsByDataset <- full_join(excursionsByDatasetTemp,excursionsByDatasetHydro,by = c("dataSetName","lat"))
 
+sum(excursionsByDataset$lat >= 30)/nrow(excursionsByDataset)
 
-
-write_csv(excursionsByDataset,file.path(processed_data_dir,"ExcursionsByDataset.csv"))
+write_csv(select(excursionsByDataset,-lat),file.path(processed_data_dir,"ExcursionsByDataset.csv"))
 
 # Fraction significant by time --------------------------------------------
 
@@ -125,7 +127,7 @@ seasonTable <- newBigData %>%
 sum(seasonTable$nSeasonalities > 1)
 
 #percent of datasets with at least one excursion
-mean(rowSums(excursionsByDataset[,-1] == "") < 4)
+mean(rowSums(excursionsByDataset[,-1] == "" | is.na(excursionsByDataset[,-1])) < 4)
 
 
 # Create S2 table ---------------------------------------------------------
@@ -134,9 +136,9 @@ mean(rowSums(excursionsByDataset[,-1] == "") < 4)
 DatasetMetadata <- read_csv("https://lipdverse.org/4_2_refs/0_13_0/references.csv")
 ExcursionMetadata <- read_csv(file.path(processed_data_dir,"ExcursionsByDataset.csv"))
 
-DatasetS1 <- left_join(ExcursionMetadata,DatasetMetadata,by = "dataSetName") %>%
+  left_join(ExcursionMetadata,DatasetMetadata,by = "dataSetName") %>%
   arrange(desc(Lat)) %>%
-  select(everything(), starts_with("significance")) %>%
+  select(!starts_with("significant"),starts_with("significant")) %>%
   write_csv(file.path(processed_data_dir,"DatasetS1.csv"))
 
 
