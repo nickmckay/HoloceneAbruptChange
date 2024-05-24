@@ -105,9 +105,11 @@ ggsave(filename = file.path(figure_dir,"Supplemental Figure - fraction of signif
        width = 10, height = 6)
 
 
-apply(excursionsByYear[,-1],2,mean)
-apply(excursionsByYear[,-1],2,range)
+apply(excursionsByYearTemp[,-1],2,mean)
+apply(excursionsByYearTemp[,-1],2,range)
 
+apply(excursionsByYearHydro[,-1],2,mean)
+apply(excursionsByYearHydro[,-1],2,range)
 
 
 # get data stats ----------------------------------------------------------

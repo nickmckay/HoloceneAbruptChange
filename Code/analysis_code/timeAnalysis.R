@@ -150,7 +150,7 @@ bothDirectional <- ggplot(bgdf) +
   geom_label(aes(x = 12300,y = -clNeg[58]),label = "95% cl",color = lineColorNeg) +
   scale_pattern_discrete("FDR Significance Level",choices = c( "crosshatch", "stripe","none"), guide = "legend")+
   scale_fill_manual("Excursion Direction",limits = c("Positive","Negative"),values = c(PosColor,belowColor)) +
-  ylab("Spatially-weighted mean excursion frequency") +
+  scale_y_continuous("Spatially-weighted mean excursion frequency",breaks = seq(-.04,.04,by = .02)) +
   theme_bw()
 
 bothDirectional
