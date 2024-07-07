@@ -1,0 +1,217 @@
+Sort,Reference,Source,Site name,Lat (°),Lon (°),Archive,Proxy,Change type,Climate signal,Excursion start (ka),Excursion end (ka),Duration (kyr),Reason not in database or TSid,Note,Biblio DOI
+1,Amekawa et al. (2016),Literature search,Bagasra (BSR7),23.3,67.5,Marine sediment,d18O,Indeterminant: 3 year record,Cold,,,,Not continuous,,http://dx.doi.org/10.1016/j.quaint.2015.07.006
+2,An et al. (2021),Literature search,Multiple Haidai region,36,118,Terrestrial sediment,Macrofossils (botanical),Event stratigraphy,Assumed deterioration,,,,Not continuous,,http://dx.doi.org/10.1080/14614103.2021.2003583
+3,Arenas et al. (2022),Literature search,Cañada de La Enfermería,24.22,-110.28,Mollusk,d18O,Indeterminant: no overlap with 4.2 ka,No overlap with 4.2 ka,,,,Fails temporal duration/resolution,no data during 4.2 ka event,http://dx.doi.org/10.1177/09596836211066594
+4,Arz et al. (2006),Railsback et al. 2018,GeoB5846-2,26.21,35.36,Marine sediment,d18O,Excursion,Dry,4.20,4.05,0.15,Data not available,duration from orginal chronology shown in Railsback figures,https:/doi.org/10.1016/j.yqres.2006.05.006
+5,Azennoud et al. (2022),Literature search,Saiss Basin,33.73,-5.01,Terrestrial sediment,Tufa,Hiatus,Wet,,,,Not continuous,,http://dx.doi.org/10.1016/j.palaeo.2021.110767
+6,Bar-Matthews et al. (1999),Railsback et al. 2018,Soreq Cave,31.76,35.02,Speleothem,d18O,Excursion,Dry,4.2,4.0,0.2,S2LR8DePB64lKW,duration from orginal chronology shown in Railsback figures,https://doi.org/10.1016/S0012-821X(98)00275-1
+7,Berger et al. (2012),Literature search,Hadramawt,15.5,48.63,Terrestrial sediment,Statigraphy,Event stratigraphy,Dry,,,,Not continuous,"""The hyperarid 4.2 ka event is associated with an unprecedented fluvial detrital phase with high energy discharges in the entire Hadramawt basin.""",http://dx.doi.org/10.1016/j.quaint.2011.10.037
+8,Berkelhammer et al. (2012),Railsback et al. 2018,Mawmluh Cave (KM-A),25.26,91.88,Speleothem,d18O,Excursion,Dry,4.1,3.9,0.2,S2LR7XglDiUCAP,duration from orginal chronology shown in Railsback figures,https://doi.org/10.1029/2012GM001207
+9,Bliedtner et al. (2022),Literature search,Shireet Naiman Nuur,46.53,101.82,Lake sediment,Multiple,Mean shift,Cold,,,,Data not available,,http://dx.doi.org/10.3389/feart.2022.910782
+10,Booth et al. (2004),Railsback et al. 2018,South Rhody Peatland,46.56,-86.08,Peat,Testate amoebae,Excursion,Dry,4.1,4.0,0.1,GH277c77ee,duration from orginal chronology shown in Railsback figures,https://doi.org/10.1016/j.yqres.2003.07.013
+11,Booth et al. (2005),Literature search,Multiple mid-west North America,40.5,-95,Terrestrial sediment,Dune,Event stratigraphy,Dry,,,,Not continuous,"""We present evidence from a variety of physical and biological proxies for a severe drought that affected the mid-continent of North America between 4.1 and 4.3 ka.""",http://dx.doi.org/10.1191/0959683605hl825ft
+12,Brisset et al. (2012),Literature search,Lac Petit,44.11,7.19,Lake sediment,pollen,Not climate,Not climate,,,,No clear climate interpretation,"Google translate: ""The author refutes the climatic hypothesis, considering that the concomitant fall of almost all tree taxa does not reflect a natural regressive dynamic of vegetation.""",http://dx.doi.org/10.4000/quaternaire.6390
+13,Carolin et al. (2019),Literature search,Gol-e-Zard cave,35.84,52,Speleothem,Mg/Ca,Excursion,Dry,4.26,3.97,0.29,Fails temporal duration/resolution,,http://dx.doi.org/10.1073/pnas.1808103115
+14,Chase et al. (2009),Railsback et al. 2018,Spitzkoppe,-21.83,15.2,Midden,d15N,Excursion,Wet,4.15,3.50,0.65,WEB29d9f1fb,duration from original pub,https://doi.org/10.1130/G30053A.1
+15,Cheng et al. (2021),Literature search,Multiple China,,,Speleothem,Multiple,Various,Various,,,,,wide-ranging review,http://dx.doi.org/10.1007/s11430-019-9478-3
+16,Cheng et al. (2023),Literature search,Subei Plain (SPM1),32.73,120.22,Terrestrial sediment,Multiple,Mean shift,Wet,,,,Data not available,coastal floods,http://dx.doi.org/10.1016/j.palaeo.2022.111327
+17,Comas-Bru et al. (2022),Literature search,Multiple global,,,Speleothem,Multiple,Various,Various,,,,,SISAL database,http://dx.doi.org/10.5194/essd-12-2579-2020
+18,Constantin et al. (2007),Railsback et al. 2018,Poleva Cave,44.71,21.75,Speleothem,d18O,Excursion,Wet & cold,4.4,4.2,0.2,WEB21765f70,duration picked from Fig7 original pub,http://doi.org/10.1016/j.palaeo.2006.08.001
+19,Cullen et al. (2000),Railsback et al. 2018,Core M5-422,23.67,59.04,Marine sediment,Dolomite %,Excursion,Dry,4.1,3.9,0.2,WEB-23c0c-29d1-472a-962e-0ccb9,duration from orginal chronology shown in Railsback figures,https://doi.org/10.1130/0091-7613(2000)28<379:CCATCO>2.0.CO;2
+20,Dang et al. (2020),Literature search,Yongxing Island,16.83,112.33,Coral,Growth rate,Variablity shift,ENSO variance,,,,Not continuous,,http://dx.doi.org/10.1007/s13131-019-1520-5
+21,Dean et al. (2015),Literature search,Nar Gölü,38.34,34.46,Lake sediment,d18O & mineralogy,Excursion,Dry,4.30,4.15,0.15,WEB88fe721c,,http://dx.doi.org/10.1016/j.quascirev.2015.07.023
+22,Di Rita & Magri (2019),Literature search,Multiple central Mediterranean,37,13,Lake sediment,Pollen,Excursion,Dry,,,,,"DK divided this article into two regions: ""Between 36 and 39◦ N, a forest decline is always visible around 4.2 k""",http://dx.doi.org/10.5194/cp-15-237-2019
+23,Di Rita & Magri (2019),Literature search,Multiple central Mediterranean,44,9,Lake sediment,Pollen,No event,NA,,,,,"DK divided this article into two regions: ""sites located between 43 and 45◦ N do not show any significant vegetation change in correspondence with the 4.2 ka event.""",http://dx.doi.org/10.5194/cp-15-237-2019
+24,Di Rita et al. (2018),Literature search,Gulf of Gaeta,40.97,13.78,Marine sediment,Pollen,Mean shift,Dry,,,,Data not available,,http://dx.doi.org/10.1016/j.quascirev.2017.11.012
+25,Di Rita et al. (2022),Literature search,Crovani Pond,42.5,8.7,Lake sediment,Pollen,No event,NA,,,,,"""The 4.2 cal. BP event ... did not trigger a rapid response in the regional forest vegetation in Corsica""",http://dx.doi.org/10.1016/j.quascirev.2022.107372
+26,Drake et al. (2012),Literature search,Chaco Canyon,36,-108,Midden,Pollen,Mean shift,Dry,,,,Fails temporal duration/resolution,,http://dx.doi.org/10.1177/0959683612449758
+27,Drysdale (2006),Railsback et al. 2018,Buca della Renella,44.01,10.18,Speleothem,Mg/Ca,Excursion,Dry,4.1,3.8,0.3,Data not available,duration from orginal chronology shown in Railsback figures,https://doi.org/10.1130/G22103.1
+28,Dutt et al. (2021),Literature search,Multiple India,,,Multiple,Multiple,Various,Various,,,,,"""Protracted dry phase lasting ~1000 yrs was observed ~4.2 ka BP in southern and northwestern India whereas 200–300 yrs event occurred in northeastern parts""",http://dx.doi.org/10.18520/cs/v120/i9/1449-1457
+29,Fedotov et al. (2021),Literature search,Lake Frolikha,55.43,110.02,Lake sediment,Multiple,Inflection,Dry,,,,Data not available,,https://doi.org/10.1016/j.quaint.2021.11.021
+30,Gao et al. (2022),Literature search,Multiple,37,112,Terrestrial sediment,Flood frequency,Event stratigraphy,Wet,,,,Not continuous,"""and the episode at ~4000 cal. y BP was an extreme-flood-rich interval within and around the Qin River Basin.""",http://dx.doi.org/10.3390/land11071088
+31,Geirsdottir et al. (2019),Literature search,Multiple Iceland,65,21,Lake sediment,Multiple,Mean shift,Cold,,,,,"""The prominent step toward cooling at 4.5–4.0 ka is statis- tically indistinguishable from the global ∼ 4.2 ka event and also coincides with Hekla 4, one of the largest explosive eruptions of the Holocene in Iceland.""",http://dx.doi.org/10.5194/cp-15-25-2019
+32,Grachev et al. (2021),Literature search,Lake Khuko,43.93,39.8,Lake sediment,Multiple,Excursion,Dry,4.2,3.5,0.7,Data not available,CR fails climate interp,http://dx.doi.org/10.1177/0959683620972782
+33,Groucutt et al. (2022),Literature search,Multiple Malta,36,14,Terrestrial sediment,Archaeological,Various,Various,,,,,"""we explore the idea that the end of the Temple Period relates to the 4.2 ka event.""",http://dx.doi.org/10.3389/feart.2021.771683
+34,Hazell et al. (2022),Literature search,Akrotiri Marsh,34.63,32.93,Terrestrial sediment,Pollen & diatom,Excursion,Dry,4.6,4.2,0.4,Data not available,,http://dx.doi.org/10.1080/01916122.2022.2067259
+35,Hazell et al. (2022),Literature search,Multiple eastern Mediterranean,,,Multiple,Multiple,Various,Various,,,,,"""We find a more complex record of changing aridity and societal response and provide a nuanced perspective on climate versus non-climate causes of Bronze Age societal ‘collapse’ event",http://dx.doi.org/10.1016/j.palaeo.2021.110788
+36,He et al. (2022),Literature search,Multiple China,,,Terrestrial sediment,Macrofossils (botanical),Event stratigraphy,Assumed deterioration,,,,,"""A comparison of demographic, archaeobotanical and paleoclimatic records was conducted to reveal patterns of regional human pop- ulation and agricultural production in response to the 4.2 ka event""",http://dx.doi.org/10.1016/j.quascirev.2022.107786
+37,Head (2019),Literature search,NA,,,NA,NA,NA,NA,,,,No original records presented,formal subdivision of the Quaternary System/Period: Present status and future directions,http://dx.doi.org/10.1016/j.quaint.2019.05.018
+38,Helama and Oinonen (2019),Literature search,Finnish Lapland,69,27,Wood,d13C,Excursion,Wet,4.14,4.05,0.09,WEB-76844-2a6b-4a99-b071-425fb,cloudiness,http://dx.doi.org/10.1016/j.quascirev.2019.04.013
+39,Hu et al. (2020),Literature search,Xisha Islands,17.08,113.5,Mollusk,d18O,Indeterminant: 40-yr record around 3.7 ka,No overlap with 4.2 ka,,,,No overlap with 4.2 ka,,http://dx.doi.org/10.5194/cp-16-597-2020
+40,Isola et al. (2019),Literature search,Corchia Cave (CC27),44.03,10.3,Speleothem,Multiple,Excursion,Dry,4.5,4.1,0.4,WEB-9acc1-d5fb-4a98-947c-ad076,,http://dx.doi.org/10.5194/cp-15-135-2019
+41,Jaffe et al. (2021),Literature search,Multiple China,,,Terrestrial sediment,Archaeological,Various,Various,,,,,"""What the above cases demonstrate is that (1) the 4.2 ka BP event is often invoked by archaeologists and paleoclimatolo- gists in East Asia when it is convenient and largely ignored when it is not; (2) the 4.2 ka BP event (possibly complicated by millennial-scale phenomena) either had more regionally variable climatic impacts than is normally claimed, or, the impacts were met with both ecological and sociocultural responses that had dramatically different outcomes;""",http://dx.doi.org/10.1017/qua.2020.60
+42,Jalali and Sicre (2019),Literature search,KSGC-31,43,3.29,Marine sediment,Uk37,Mean shift,Cold,,,,Data not available,,http://dx.doi.org/10.1007/978-3-030-01599-2_3
+43,Jarriel (2021),Literature search,Cycladic islands,37,25,Multiple,Archaeological,Event stratigraphy,Assumed deterioration,,,,,"""small-world networks in the Early Bronze Age Cyclades were substantially altered in the face of the 4.2 ka climate event,""",http://dx.doi.org/10.1016/j.quaint.2020.08.010
+44,Jia et al. (2021),Literature search,Sanfangwan,30.77,113.08,Terrestrial sediment,Pollen,Event stratigraphy,Wet,,,,Fails temporal duration/resolution,"""at the Sanfangwan Site the flood event between 4200 and 4100 cal. yr BP was coincident with the expansion of the Yunmengze Lake""",http://dx.doi.org/10.1016/j.catena.2021.105357
+45,Jia et al. (2021),Literature search,Nanyang Basin,33,112,Terrestrial sediment,Macrofossils,Mean shift,Cold,,,,Not continuous,"""average latitude of the human settlements with rice cultivation shifted southward to 33.29° N during the Longshan Period (4500–4000 BP) due to the cold climate brought by the “4.2 ka event.”",http://dx.doi.org/10.1177/09596836211033201
+46,Jordan et al. (2017),Search & Railsback et al. 2018,Spiddal (Galway),53.24,-9.31,Peat,n-Alkane,Indeterminant: single point in low-resolution record,Wet & cold,,,,,4.2 event identified as 1 point,http://dx.doi.org/10.1016/j.orggeochem.2017.02.004
+47,Kajita et al. (2018),Literature search,MD06-3040 (Yangtze Delta),27.73,121.79,Marine sediment,Uk37,Excursion,Cold,4.4,3.8,0.6,Data not available,,http://dx.doi.org/10.1016/j.palaeo.2022.111310
+48,Kajita et al. (2023),Literature search,HIUB1–1 (Hakata Bay),33.65,130.39,Marine sediment,Uk37,Mean shift,Cold,,,,Data not available,Unit IV in core HIUB1-1,http://dx.doi.org/10.1016/j.quascirev.2018.10.035
+49,"Kang et al., (2023)",Literature search,HSL (Hunshandake Sandy Land),43,115,Terrestrial sediment,Dune,Mean shift,Dry,,,,Not continuous,,http://dx.doi.org/10.1016/j.quascirev.2022.107919
+50,Kathayat et al. (2018),Literature search,Mawmluh Cave (ML.1 & ML.2),25.26,91.71,Speleothem,d18O & d13C,Mean shift,Dry,,,,Fails temporal duration/resolution,,http://dx.doi.org/10.5194/cp-14-1869-2018
+51,Kawahata (2019),Literature search,Mutsu Bay,41,140.77,Marine sediment,Uk37,Mean shift,Cold,,,,WEB-1bc30-0c10-467d-9d36-560c8,,http://dx.doi.org/10.1186/s40645-019-0308-8
+52,Kotlia and Joshi (2013),Literature search,Badanital Lake,30.5,78.93,Lake sediment,Multiple,Mean shift,Dry,,,,Fails temporal duration/resolution,,https://www.jstor.org/stable/24092104
+53,Kropelin et al. (2008),Railsback et al. 2018,Lake Yoa,19.03,20.31,Lake sediment,MS,Excursion,Dry,4.2,4.0,0.2,Data not available,duration from orginal chronology shown in Railsback figures,https://doi.org/10.1126/science.1154913
+54,Laskar and Bohra (2021),Literature search,Multiple India,,,Multiple,Multiple,Various,Various,,,,,"""The two major climate events at 8.2 kyr and 4.2 kyr BP are evident in most of the climate proxies. """,http://dx.doi.org/10.3389/feart.2021.709455
+55,Le Roy et al. (2017),Literature search,Ecrins-Pelvoux Massif,44.92,6.28,Moraines,Be10,Mean shift,Cold,,,,Not continuous,,http://dx.doi.org/10.1016/j.quascirev.2017.10.010
+56,Lemcke and Sturm (1997),Railsback et al. 2018,Lake Van,38.4,43.2,Lake sediment,Quartz %,Excursion,Dry,4.25,4.05,0.2,Data not available,duration from orginal chronology shown in Railsback figures,https://doi.org/10.1007/978-3-642-60616-8_29
+57,Li et al. (2018),Literature search,La Vierge Cave (Rodrigues Island),-19.7,63.4,Speleothem,d18O & d13C,Excursion,Dry,3.9,3.5,0.4,Data not available,,http://dx.doi.org/10.5194/cp-14-1881-2018
+58,Li et al. (2021),Literature search,Multiple,36,115,Terrestrial sediment,Flood frequency,Event stratigraphy,Wet,,,,Not continuous,,http://dx.doi.org/10.1016/j.catena.2021.105433
+59,Liefert and Shuman (2022),Literature search,Highway 130 Lake (HL),41.35,-106.24,Lake sediment,d18O,Excursion,Dry,4.2,4.0,0.2,WEB-37500-2f39-49d9-a943-d0e61,,http://dx.doi.org/10.5194/cp-18-1109-2022
+60,Lin et al. (2022),Literature search,Lake Tianchi,25.87,99.28,Lake sediment,Pollen,Excursion,Dry & cold,4.5,3.9,0.6,lcRLUGwe6u9sNwCWBA0,multiple climate interp (LC sperates T and P),http://dx.doi.org/10.1016/j.quascirev.2022.107809
+61,Liu and Feng (2012),Search & Railsback et al. 2018,Multiple China,,,Multiple,Multiple,Various,Various,,,,,"""Our review of recently published climatic proxy sequences shows that the most dramatic climate tranistion of the mid Holocene (~8500–~3500 cal. yr BP) occurred at the middle- to late-Holocene transition at ~4000 cal. yr BP.""",http://dx.doi.org/10.1177/0959683612441839
+62,Magny et al. (2009),Literature search,Lakes Accesa and Maliq,41.5,15,Lake sediment,Stratigraphy,Excursion,Dry,4.1,3.95,0.15,Data not available,"""Two phases characterised by wetter conditions.. bracket a phase marked by drier conditions at c. 4100–3950 cal. BP. This dry median episode may be a Mediterranean equivalent of the so-called ‘4.2 ka event’""",http://dx.doi.org/10.1177/0959683609337360
+63,Menounos et al. (2008),Railsback et al. 2018,Redbarrel Lake,51.4,-121.2,Lake sediment,LOI,Excursion,Wet & cold,4.3,4.1,0.2,Data not available,duration from original pub,http://doi.org/10.1029/2008GL033172
+64,Menounos et al. (2008),Railsback et al. 2018,Green Lake,57.68,-126.73,Lake sediment,LOI,Excursion,Wet & cold,4.4,4.0,0.4,Data not available,duration from original pub,http://doi.org/10.1029/2008GL033172
+65,Mischke and Zhang (2010),Literature search,Lake Ximencuo,33.38,101.1,Lake sediment,Multiple,Mean shift,Cold,,,,Data not available,,http://dx.doi.org/10.1016/j.gloplacha.2010.02.001
+66,Nakamura et al. (2016),Search & Railsback et al. 2018,Lake Rara,29.53,82.08,Lake sediment,Mn/Ti & Mn/Fe,Excursion,Dry,4.2,3.7,0.5,WEB-9e608-3b46-4c70-aa21-c7592,,http://dx.doi.org/10.1016/j.quaint.2015.05.053
+67,Nichols (2021),Literature search,Multiple Sibera,,,Multiple,Archaeological,Event stratigraphy,Assumed deterioration,,,,,"""A severe and widespread drought beginning about 4,200 years ago cleared the way for a rapid spread of Uralic-speaking people along the Volga and across south- western Siberia""",http://dx.doi.org/10.1146/annurev-linguistics-011619-030405
+68,O'Donnell et al. (2020),Literature search,Vung Tha,20.25,105.9,Terrestrial sediment,Pollen,Hiatus,Not stated,,,,Data not available,no data during 4.2 ka event,http://dx.doi.org/10.1016/j.quascirev.2020.106416
+69,Ocakoglu et al. (2019),Literature search,Kureysler Valley (KS-6 and KS-4),39.3,29.8,Lake sediment,Multiple,Excursion,Dry,4.6,4.0,0.6,Data not available,,http://dx.doi.org/10.1016/j.quascirev.2019.04.016
+70,"Ohlendorf et al, (2014)",Search & Railsback et al. 2018,Laguna Cháltel (Laguna Azul),-49.97,-71.12,Lake sediment,Multiple,Mean shift,Dry,,,,No clear climate interpretation,CR fails climate interp,http://dx.doi.org/10.1016/j.palaeo.2014.06.030
+71,Pleskot et al. (2020),Literature search,Lake Spore,53.8,16.73,Lake sediment,Multiple,Excursion,Cold,4.25,4.00,0.25,Data not available,,http://dx.doi.org/10.1016/j.catena.2020.104565
+72,Prasad and Enzel (2006),Railsback et al. 2018,Nal Sarovar,23,72,Lake sediment,C/N,Indeterminant: single point in low-resolution record,Dry,,,,Data not available,4.2 event identified as 1 point,http:/doi.org/10.1016/j.yqres.2006.05.008
+73,Psomiadis et al. (2017),Railsback et al. 2018,Skala marion Cave,40.64,24.5,Speleothem,d18O,Excursion,Dry,4,3.4,0.6,S2LR6gyBxnVNNh,,http://dx.doi.org/10.1016/j.palaeo.2017.10.021
+74,Railsback et al. (2011),Railsback et al. 2018,Cova da Arcoia,42.61,-7.09,Speleothem,Petrology,Hiatus,Wet,,,,S2LRP1bVgbttoT,,http://dx.doi.org/10.1016/j.quascirev.2018.02.015
+75,Railsback et al. (2022),Literature search,Dante Cave,-19.4,17.88,Speleothem,d18O & d13C,Excursion,Wet,4.15,3.93,0.22,S2LRNNRQiP9T5J,,http://dx.doi.org/10.1016/j.palaeo.2021.110756
+76,Ran and Chen (2019),Literature search,Multiple NH low-middle latitudes,,,Multiple,Multiple,Various,Various,,,,,"""This paper first attempts to portray a global picture of this “4.2 ka Event” and then reviews those reliably-dated sequences containing “4.2 ka Event” retrieved from the domains of four major civilizations. """,http://dx.doi.org/10.1016/j.quaint.2019.05.030
+77,Regattieri et al. (2014),Railsback et al. 2018,Corchia Cave,43.98,10.22,Speleothem,Moisture index,Excursion,Dry,4.4,4.0,0.4,WEB5f442d8b,duration from original pub,https://doi.org/10.1002/jqs.2712
+78,Renssen (2022),Literature search,Multiple global,,,Multiple,Multiple,Various,Various,,,,,"""[climate] model results were evaluated against the global humidity anomaly signature for the 4.2ka event as provided by proxy-based reconstructions from 129 different sites""",http://dx.doi.org/10.1177/09596836221074031
+79,Robles et al. (2022),Literature search,Lake Sevan,40.2,45.67,Lake sediment,Multiple,Excursion,Dry,4.2,3.7,0.5,Data not available,,http://dx.doi.org/10.1016/j.quascirev.2021.107297
+80,Roland et al. (2014),Literature search,Sluggan Moss; Fallahogy Bog,54.84,-6.4,Peat,Testate amoebae,No event,No event,,,,Data not available,no 4.2 event reported,http://dx.doi.org/10.1016/j.quascirev.2013.10.024
+81,Roy et al. (2022),Literature search,Bhojbasa kame terrace (KMT),30.76,78.91,Terrestrial sediment,Pollen,Excursion,Dry,4.4,3.8,0.6,Data not available,,http://dx.doi.org/10.1016/j.jseaes.2022.105080
+82,Saravanan et al. (2019),Literature search,Core SK291/GC15,14.69,73.23,Marine sediment,Multiple,Mean shift,Dry,,,,No clear climate interpretation,"upwelling ""Various benthic biofacies combined with isotope and planktic foraminiferal data suggest that depletion of dissolved oxygen and increase in organic productivity in the study area was caused by intense monsoonal upwelling since the middle Holocene.""",http://dx.doi.org/10.1016/j.jseaes.2019.103915
+83,Schirrmacher et al. (2019),Literature search,GeoB5901-2,36.21,-4.31,Marine sediment,n-Alkane,Excursion,Dry,4.4,4.3,0.1,WEB-595d8-0b2b-418f-8366-1195c,,http://dx.doi.org/10.5194/cp-15-617-2019
+84,Schirrmacher et al. (2020),Literature search,ODP-161-976A,36.21,-4.31,Marine sediment,Leafwax dD,Excursion,Moisture source,4.2,3.7,0.5,No clear climate interpretation,Source water interp,http://dx.doi.org/10.1371/journal.pone.0243662
+85,Scroxton et al. (2023),Literature search,Anjohikely (AK1),-15.56,46.87,Speleothem,d18O,Hiatus,Dry,,,,WEB-b7e9e-9996-44f5-9b99-96d39,,http://dx.doi.org/10.1016/j.quascirev.2022.107874
+86,Scroxton et al. (2023),Literature search,Multiple tropical Indian Ocean,,,Speleothem,Multiple,Various,Various,,,,,"""while some in- dividual records from the Indian Ocean basin show locally significant climate excursions contemporaneous with the 4.2 ka event, when viewed basin wide the event has little regional coherence nor is it of unusual severity at most sites. """,http://dx.doi.org/10.1016/j.quascirev.2022.107837
+87,Sharifi et al. (2015),Railsback et al. 2018,Neor Lake,35.96,38.56,Lake sediment,Ti,Excursion,Dry,4.25,3.95,0.3,LPDab328fd0,duration from orginal chronology shown in Railsback figures,https://doi.org/10.1016/j.quascirev.2015.07.006
+88,Shuchun et al. (2022),Literature search,Yanling (Core YL),26.4,114.1,Peat,Multiple,Hiatus,Wet & warm,,,,Not continuous,hiatus above and below 4.2; no clear timing of event,http://dx.doi.org/10.1016/j.revpalbo.2022.104747
+89,Singh et al. (2022),Literature search,Lilaur lake,28.44,79.04,Lake sediment,Grain size,Excursion,Dry,4.25,4.05,0.2,WEB-ea666-9066-4546-8cd7-938ea,CR fails climate interp,http://dx.doi.org/10.1016/j.quaint.2021.01.015
+90,Stanley et al. (2003),Railsback et al. 2018,Nile Delta,31.1,32.5,Marine sediment,Sr,Excursion,Dry,4.2,4.0,0.2,Data not available,duration from original pub,https://doi.org/10.1002/gea.10065
+91,Staubwasser (2003),Search & Railsback et al. 2018,Indus delta (63KA),24.62,65.99,Marine sediment,d18O,Mean shift,Dry,,,,T2L_SO90_63KA_d18o_ruber_SST_from_d18o_ruber,,http://dx.doi.org/10.1029/2002GL016822
+92,Suric et al. (2021),Literature search,Nova Grgosova,45.82,14.67,Speleothem,Multiple,Excursion,Dry,4.3,4.1,0.2,Data not available,,http://dx.doi.org/10.1177/09596836211019120
+93,Tan et al. (2018),Literature search,Xianglong Cve,33,106.33,Speleothem,d18O & d13C,Excursion,Wet,4.39,3.8,0.4,S2LRljclseoP6S,,http://dx.doi.org/10.1016/j.epsl.2017.11.044
+94,Tan et al. (2020),Literature search,Wuya Cave,33.82,105.43,Speleothem,d18O,No event,No event,,,,WEB-25055-627a-46a8-868d-f4a69,,http://dx.doi.org/10.1029/2020GL090273
+95,Thompson et al. (2002),Railsback et al. 2018,Kilimanjaro,-3.1,37.4,Glacier ice,Dust,Excursion,Dry,3.95,4.05,0.1,GH2dc435dc,dust spike; duration estimated from Fig. 4,http://doi.org/10.1126/science.1073198
+96,Tian et al. (2020),Literature search,Huangqihai Lake,40.81,113.3,Lake sediment,Pollen,Mean shift,Dry,,,,Data not available,,http://dx.doi.org/10.1111/1755-6724.14565
+97,Ticha et al. (2023),Literature search,Prášilské jezero,49.08,13.4,Lake sediment,Multiple,Mean shift,Wet,,,,No clear climate interpretation,brownification,http://dx.doi.org/10.1016/j.scitotenv.2022.159982
+98,Toth and Aronson (2019),Literature search,Contadora Island,8.63,79.03,Coral,Sr/Ca & d18O,Hiatus,Cold,,,,Not continuous,"review paper, refers to previous work of Toth where no actual 4.2 event is present, hiatus in corral growth is an indicator of environmental change around that time: https://www.nature.com/articles/nclimate2541#Abs2",http://dx.doi.org/10.5194/cp-15-105-2019
+99,Wang et al. (2022),Literature search,Remi Cave,29.23,109.36,Speleothem,d13C & Sr/Ca,Inflection,Wet,,,,,,http://dx.doi.org/10.1017/qua.2022.11
+100,Wang et al. (2022),Literature search,Yazihai Lake,38.86,112.22,Lake sediment,Pollen,Excursion,Dry,4.34,3.88,0.46,Data not available,,http://dx.doi.org/10.1016/j.gloplacha.2022.103854
+101,Xiao et al. (2019),Literature search,Daihai Lake,40.55,112.66,Lake sediment,Multiple,Excursion,Dry,4.06,3.69,0.37,Data not available,,http://dx.doi.org/10.1016/j.quaint.2018.06.025
+102,Yan et al. (2014),Literature search,Hala Lake,38.5,97.5,Lake sediment,d18O,Excursion,Dry,4.5,4.1,0.4,LS14YAHA02a,,https://doi.org/10.1002/jqs.2712
+103,Zanon et al. (2019),Literature search,Bande di Cavriana,45.37,10.58,Terrestrial sediment,Multiple,Excursion,Dry & warm,4.6,4.3,0.3,Data not available,,http://dx.doi.org/10.1016/j.quascirev.2019.105891
+104,Zerathe et al. (2014),Literature search,Southwestern Alps,43.7,7,Terrestrial sediment,Landslides,Event stratigraphy,Wet,,,,Not continuous,,http://dx.doi.org/10.1016/j.quascirev.2014.02.015
+105,Zhang et al. (2010),Railsback et al. 2018,Yuchuicun,33,117,Terrestrial sediment,Multiple,Mean shift,Dry,,,,Fails temporal duration/resolution,,https://doi.org/10.1007/s11442-010-0455-8
+106,Zhang et al. (2018),Literature search,Shennong Cave,28.7,117.25,Speleothem,d18O & d13C,Excursion,Wet,4.2,3.9,0.3,Fails temporal duration/resolution,,http://dx.doi.org/10.5194/cp-14-1805-2018
+107,Zhang et al. (2020),Literature search,Hulun Lake,49,117.33,Lake sediment,Pollen,Mean shift,Dry & cold,,,,Data not available,,http://dx.doi.org/10.1002/jqs.3231
+108,Zhu et al. (2017),Railsback et al. 2018,Tanjialing,30.88,113.08,Lake sediment,Phytolith & charcol,Excursion,Dry,4.2,4.0,0.2,Not continuous,duration from original pub,https://doi.org/10.1371/journal.pone.0177287
+109,Zielhofer et al. (2017),Railsback et al. 2018,Lake Sidi Ali,33.07,-5,Lake sediment,Grain size & geochemistry,Excursion,Dry,4.2,4.1,0.1,WEB-fc8d9-7b8f-44c7-b4cb-5a4a1,dust spike duration picked from figure,http://dx.doi.org/10.1016/j.quascirev.2017.07.010
+110,Zolitschka et al. (2021),Literature search,Lagoa Dourada,-25.24,-50.05,Lake sediment,Multiple,Excursion,Wet,4.4,3.8,0.6,,"""century-long increases in rainfall with complex responses of the environmental system",http://dx.doi.org/10.1016/j.quascirev.2021.107204
+111,,Wang et al. 2016,Alberta (not specified),55.2,-118.9,,,,Wet,,,,,,
+112,,Wang et al. 2016,Alberta (not specified),53.6,-118,,,,Wet,,,,,,
+113,"Ely 1992, Ely et al. 1993, Ely 1997",Wang et al. 2016,Bill Williams River,33.947,-113.83,,,,Wet,,,,,,
+114,"Ely 1992, Enzel et al. 1994, Ely et al. 1993, Ely 1997",Wang et al. 2016,Lower Virgin River,36.315,-113.6,,,,Wet,,,,,,
+115,"Ely 1992, Ely et al. 1993, Ely 1997",Wang et al. 2016,Big Sandy River,34.326,-113.57,,,,Wet,,,,,,
+116,"Ely 1992, Ely et al. 1993, Ely 1997",Wang et al. 2016,Burro Creek,34.273,-113.25,,,,Wet,,,,,,
+117,"Ely 1992, Ely et al. 1993, Ely 1997",Wang et al. 2016,East Fork Virgin River,36.547,-112.91,,,,Wet,,,,,,
+118,"Ely 1992, Ely et al. 1993, Ely 1997",Wang et al. 2016,Kanab Creek,36.094,-112.48,,,,Wet,,,,,,
+119,"Melis 1990, Ely et al. 1993, Ely 1997",Wang et al. 2016,Oak Creek,34.411,-111.8,,,,Wet,,,,,,
+120,"Ely et al. 1993, Ely 1997",Wang et al. 2016,Buckskin Wash,36.389,-111.77,,,,Wet,,,,,,
+121,"Ely and Baker 1985, Ely et al. 1993, Ely 1997",Wang et al. 2016,Verde River,33.969,-111.65,,,,Wet,,,,,,
+122,"Ely et al. 1993, Ely 1997",Wang et al. 2016,Paria River,36.283,-111.63,,,,Wet,,,,,,
+123,"Ely et al. 1993, Ely 1997",Wang et al. 2016,Little Colorado River,35.39,-111.49,,,,Wet,,,,,,
+124,"Webb 1985, Webb et al. 1988, Ely et al. 1993, Ely 1997",Wang et al. 2016,Escalante River,36.862,-111.2,,,,Wet,,,,,,
+125,"Ely et al. 1993, Ely 1997",Wang et al. 2016,Boulder Creek,37.031,-111.19,,,,Wet,,,,,,
+126,"O'Connor et al. 1986, Ely et al. 1993, Ely 1997",Wang et al. 2016,Tonto Creek,33.853,-111.12,,,,Wet,,,,,,
+127,"O'Connor et al. 1986, Ely et al. 1993, Ely 1997",Wang et al. 2016,Salt River,33.4,-110.8,,,,Wet,,,,,,
+128,"Ely et al. 1993, Ely 1997",Wang et al. 2016,Redfield Creek,32.126,-110.43,,,,Wet,,,,,,
+129,"Roberts 1987, Ely et al. 1993, Ely 1997",Wang et al. 2016,Aravaipa Creek,32.484,-110.33,,,,Wet,,,,,,
+130,"Ely 1992, Ely et al. 1993, Ely 1997",Wang et al. 2016,Gila River,32.79,-109.41,,,,Wet,,,,,,
+131,"Ely et al. 1993, Ely 1997",Wang et al. 2016,San Fransisco River,32.99,-109.21,,,,Wet,,,,,,
+132,"Stokes & Gaylord, 1993, Booth et al. 2005",Wang et al. 2016,Ferris/Seminoe Dunefield,42.149,-106.81,,,,Dry,,,,,,
+133,,Wang et al. 2016,Colorado (not specified),39.73,-105.6,,,,Dry,,,,,,
+134,"Forman et al., 1995, Booth et al. 2005",Wang et al. 2016,Eastern Colorado Dunes,40.335,-104.19,,,,Dry,,,,,,
+135,"Mason et al., 1997, Booth et al. 2005",Wang et al. 2016,"Sand Hills, Nebraska",41.817,-102.16,,,,Dry,,,,,,
+136,"Dean, 1993, 1997, Booth et al. 2005",Wang et al. 2016,"Elk Lake, Minnesota",46.663,-95.052,,,,Dry,,,,,,
+137,"Denniston et al., 1999, Booth et al. 2005",Wang et al. 2016,Coldwater Cave,43.178,-91.458,,,,Dry,,,,,,
+138,Booth et al. 2005,Wang et al. 2016,Western Illinois sandsheet,41.267,-89.641,,,,Dry,,,,,,
+139,"Davis et al. 1998, Booth et al. 2005",Wang et al. 2016,"Sylvania Wilderness, Michigan",46.307,-88.797,,,,Dry,,,,,,
+140,"Hughes et al., 2000; Barber et al., 2003;",Wang et al. 2016,"Abbeyknockmoy, Ireland",53.42,-8.67,,,,Wet,,,,,,
+141,,Wang et al. 2016,Ireland (not specified),54.71,-6.24,,,,Wet,,,,,,
+142,"Hughes et al., 2000; Barber et al., 2003;",Wang et al. 2016,"Bolton Fell Moss, England",55,-2.77,,,,Wet,,,,,,
+143,"Chen 1987, Xia et al. 2003, Wu and Liu 2004",Wang et al. 2016,"Cengze, China",32.101,83.921,,,,Dry,,,,,,
+144,"Fontes et al. 1996, Xia et al. 2003;  Wu and Liu 2004",Wang et al. 2016,"Bangong, China",30.514,84.279,,,,Dry,,,,,,
+145,"Gasse et al. 1991, Fontes et al., 1993; Xia et al. 2003, Wu and Liu 2004",Wang et al. 2016,"Sumxi-Longmu, China",31.001,84.341,,,,Dry,,,,,,
+146,"Gu et al. 1993, Xia et al. 2003, Wu and Liu 2004",Wang et al. 2016,"Selin, China",26.989,88.132,,,,Dry,,,,,,
+147,"Wu and Liu 2004, Xia et al. 2003",Wang et al. 2016,"Heyuan, China",37.629,93.316,,,,Dry,,,,,,
+148,"Rhodes et al. 1996, Wei and Gasse 1999, Xia et al. 2003, Wu and Liu 2004",Wang et al. 2016,"Manas, China",40.911,93.861,,,,Dry,,,,,,
+149,"Tarasov et al. 2000, Xia et al. 2003, Wu and Liu 2004",Wang et al. 2016,"Hoton-Nuur, Mongolia",43.824,94.943,,,,Dry,,,,,,
+150,"Shi et al. 1993, Xia et al. 2003, Wu and Liu 2004",Wang et al. 2016,"Dunde, China",30.883,98.921,,,,Dry,,,,,,
+151,"Zhang et al. 2000, Xia et al. 2003, Wu and Liu 2004",Wang et al. 2016,"Hongshui, China",30.758,101.746,,,,Dry,,,,,,
+152,"Lister et al. 1991, Xia et al. 2003, Wu and Liu 2004",Wang et al. 2016,"Qinghai, China",30.216,102.112,,,,Dry,,,,,,
+153,"Chen et al. 1999, Xia et al. 2003, Wu and Liu 2004",Wang et al. 2016,"Minqging, China",31.182,102.408,,,,Dry,,,,,,
+154,Hong et al. 2003,Wang et al. 2016,"Hongyuan peat bog, China",32.77,102.5,,,,Dry,,,,,,
+155,"Yan et al. 1999; Xia et al. 2003, Wu and Liu 2004",Wang et al. 2016,"Zoigê, China",27.664,104.222,,,,Dry,,,,,,
+156,"Zhang 2001, Wu and Liu 2004",Wang et al. 2016,"Fengyang, China",28.088,109.943,,,,Wet,,,,,,
+157,"Wang and Sun 1997, Xia et al. 2003, Wu and Liu 2004",Wang et al. 2016,"Chasuqi, China",34.527,111.687,,,,Dry,,,,,,
+158,"An et al. 1991, Xia et al. 2003, Wu and Liu 2004",Wang et al. 2016,"Daihai, China",33.985,111.866,,,,Dry,,,,,,
+159,"Yang 2001, Xia et al. 2003, Wu and Liu 2004",Wang et al. 2016,"Diaozihai, China",35.194,111.99,,,,Dry,,,,,,
+160,"Tang et al. 1996, Wu and Liu 2004",Wang et al. 2016,"Gongan, China",24.743,113.072,,,,Wet,,,,,,
+161,"Yang et al. 1998, Wu and Liu 2004",Wang et al. 2016,"Mianyang , China",24.256,113.617,,,,Wet,,,,,,
+162,"Jin and Liu 2002, Xia et al. 2003, Wu and Liu 2004",Wang et al. 2016,"Taishizhuang, China",34.896,116.147,,,,Dry,,,,,,
+163,Wang et al. 2016,Wang et al. 2016,"Yuchisi, China",32.91,116.52,,,,Dry,,,,,,
+164,"Liu et al. 1992, Wu and Liu 2004",Wang et al. 2016,"Qidong, China",26.627,120.724,,,,Wet,,,,,,
+165,"Wei et al. 1998, Wu and Liu 2004",Wang et al. 2016,Rc-26-16,20.487,121.269,,,,Wet,,,,,,
+166,"Jian et al. 2000, Wu and Liu 2004",Wang et al. 2016,Okinawa Trough,20.911,122.896,,,,Wet,,,,,,
+167,"Liu 1989, Xia et al. 2003, Wu and Liu 2004",Wang et al. 2016,"Jinchuan, China",37.566,123.612,,,,Dry,,,,,,
+168,"Behling and Hooghiemstra, 1999",Marchant & Hooghiemstra 2004,"Piusbi, Colombia",1.66,-77.89,,,,Wet,,,,,,
+169,"Wille et al., 2001",Marchant & Hooghiemstra 2004,"El Camito, Colombia",2.53,-76.6,,,,Wet,,,,,,
+170,"Behling and Hooghiemstra, 1999",Marchant & Hooghiemstra 2004,"Carimagua, Colombia",4.04,-74.14,,,,Wet,,,,,,
+171,"Wijmstra and van der Hammen, 1966",Marchant & Hooghiemstra 2004,"Lago Agua Sucia, Colombia",3.46,-73.54,,,,Wet,,,,,,
+172,"Behling et al., 1999; Behling and Hooghiemstra, 2000",Marchant & Hooghiemstra 2004,"Loma Linda, Colombia",3.22,-73.35,,,,Wet,,,,,,
+173,"Behling and Hooghiemstra, 1998",Marchant & Hooghiemstra 2004,"Laguan Angel, Colombia",4.45,-70.54,,,,Wet,,,,,,
+174,"Behling and Hooghiemstra, 2000; Berrio et al., 2002",Marchant & Hooghiemstra 2004,"Laguna Chenevo, Colombia",4.05,-70.21,,,,Wet,,,,,,
+175,"Thompson et al., 1984, 1995",Marchant & Hooghiemstra 2004,"Quelccaya, Peru",-13.45,-70.05,,,,Wet,,,,,,
+176,"Cross et al., 2000; Baker et al., 2001; Rowe et al., 2003",Marchant & Hooghiemstra 2004,"Titicaca, Peru",-12.08,-69.85,,,,Wet,,,,,,
+177,"Behling and Hooghiemstra, 1998",Marchant & Hooghiemstra 2004,"Sardinas, Colombia",4.95,-69.45,,,,Wet,,,,,,
+178,"Thompson et al., 1988, 2000; Thompson, 1992;",Marchant & Hooghiemstra 2004,"Sajama, Bolivia",-18.16,-68.88,,,,Wet,,,,,,
+179,"Bradbury et al., 1981; Leyden, 1985",Marchant & Hooghiemstra 2004,"Lake Valencia, Venezuela",10.32,-67.75,,,,Wet,,,,,,
+180,"de Oliveira, 1992",Marchant & Hooghiemstra 2004,"Lagoa dos Olhos, Brazil",0.26,-66.68,,,,Wet,,,,,,
+181,"Behling and Hooghiemstra, 2001",Marchant & Hooghiemstra 2004,"Laguna Santa Terresa, Venezuela",4.15,-65.45,,,,Wet,,,,,,
+182,"Salgado-Labouriau et al., 1998",Marchant & Hooghiemstra 2004,"Crominia, Brazil",-17.28,-49.45,,,,Wet,,,,,,
+183,"Behling, 1993, 1997a, 1997b",Marchant & Hooghiemstra 2004,"Serra da Boa vista, Brazil",-27.7,-49.15,,,,Wet,,,,,,
+184,"Salgado-Labouriau et al., 1998",Marchant & Hooghiemstra 2004,"Aguads Emendadas, Brazil",-15.56,-47.58,,,,Wet,,,,,,
+185,"Salgado-Labouriau et al., 1998",Marchant & Hooghiemstra 2004,"Lagoa Santa, Brazil",-19.56,-47.45,,,,Wet,,,,,,
+186,"Haberle and Maslin, 1999",Marchant & Hooghiemstra 2004,"ODP site 932, Brazil",5.18,-47.03,,,,Wet,,,,,,
+187,"Ledru, 1992; Ledru, 1993; Ledru et al., 1994; Ledru et al., 1996; Alexandre et al., 1999",Marchant & Hooghiemstra 2004,"Salitre, Brazil",-19,-46.78,,,,Wet,,,,,,
+188,"de Oliveira, 1992; Ledru, 1993; Salgado-Labouriau, 1997; Salgado-Labouriau et al., 1998",Marchant & Hooghiemstra 2004,"Lago Serra Negra, Brazil",-19.5,-46.68,,,,Wet,,,,,,
+189,"Behling and Lima da Costa, 2000",Marchant & Hooghiemstra 2004,"Rio Cruca, Brazil",-5.5,-38,,,,Wet,,,,,,
+190,"Lézine and Casanova, 1989; Alexandre et al., 1997",Marchant & Hooghiemstra 2004,"Lake Guiers, Senegal",16.3,-16.5,,,,Dry,,,,,,
+191,"Servant and Servant-Vildary, 1980; Williams and Faure, 1980; Petit-Maire, 1986",Marchant & Hooghiemstra 2004,"Lake Mali, Mali",16.5,-4.15,,,,Dry,,,,,,
+192,"Talbot et al., 1984; Talbot and Johannessen, 1992; Maley and Elenga, 1993; Maley, 1995; Maley and Brenac, 1998; Stager and Anfang-Sutter, 1999",Marchant & Hooghiemstra 2004,Lake Bosumtwi Ghana,6.3,-1.25,,,,Dry,,,,,,
+193,"Ballouche and Neumann, 1995",Marchant & Hooghiemstra 2004,"Lake Oursi, Burkina Fasso",14.86,-0.46,,,,Dry,,,,,,
+194,"Lézine et al., 1985, 1990; Lézine, 1987;",Marchant & Hooghiemstra 2004,"Torba N’ Diaya, Niger",15.5,5.5,,,,Dry,,,,,,
+195,"Maley and Brenac, 1998",Marchant & Hooghiemstra 2004,"Lake Barombi Mbo, Cameroon",3.24,9.05,,,,Dry,,,,,,
+196,"Talbot et al., 1984; Talbot and Johannessen, 1992; Reynaud-Farrera et al., 1996",Marchant & Hooghiemstra 2004,"Lake Osa, Cameroon",2.85,10.08,,,,Dry,,,,,,
+197,"Stager and Anfang-Sutter, 1999",Marchant & Hooghiemstra 2004,"Lake Bimbili, Cameroon",3.56,10.15,,,,Dry,,,,,,
+198,"Holmes et al., 1999; Salzmann and Waller, 1998",Marchant & Hooghiemstra 2004,"Bal Lake, Nigeria",13.18,10.56,,,,Dry,,,,,,
+199,"Salzmann and Waller, 1998; Street-Perrot et al., 2000; Gasse, 2002",Marchant & Hooghiemstra 2004,"Kajemarum Oasis, Nigeria",13.12,11.01,,,,Dry,,,,,,
+200,"Vincens et al., 1998",Marchant & Hooghiemstra 2004,"Lake Sinnda, Congo",-3.14,11.04,,,,Dry,,,,,,
+201,"Williams and Faure, 1980; Servant and Servant-Vildary, 1980; Petit-Maire, 1986; Ghienner et al., 2002",Marchant & Hooghiemstra 2004,"Lake Chad, Chad",13.5,14.3,,,,Dry,,,,,,
+202,Servant and Servant-Vildary 1980; Gasse 2002,Marchant & Hooghiemstra 2004,"Termit palaeolake, Chad",11.3,15.4,,,,Dry,,,,,,
+203,"Ghienner et al., 2002",Marchant & Hooghiemstra 2004,"Bahr-el-Ghazal, Chad",14.5,17,,,,Dry,,,,,,
+204,"Hart et al., 1996; Mercader et al., 2000",Marchant & Hooghiemstra 2004,"Ituli, D.R.C",1.5,28.45,,,,Dry,,,,,,
+205,"Street and Grove, 1975; Haberyan and Heckey, 1987;",Marchant & Hooghiemstra 2004,"Lake Kivu, Rwanda, D.R.C",-1.85,28.93,,,,Dry,,,,,,
+206,"Gasse and Descourtieux, 1979; Haberyan and Heckey, 1987;  Vincens, 1993; Cohen et al., 1997",Marchant & Hooghiemstra 2004,"Lake Tanganyika, Zambia",-6.14,29.05,,,,Dry,,,,,,
+207,"Taylor, 1990; Taylor and Marchant, 1996",Marchant & Hooghiemstra 2004,"Ahakagyezi, Uganda",1.7,29.54,,,,Dry,,,,,,
+208,"Ssemmanda and Vincens, 1993; Beuning et al., 1997;",Marchant & Hooghiemstra 2004,"Lake Albert, Uganda",0.5,31.1,,,,Dry,,,,,,
+209,"Lézine and Casanova, 1989",Marchant & Hooghiemstra 2004,"Oyo depression, Sudan",10.01,32.1,,,,Dry,,,,,,
+210,"Taylor, 1990",Marchant & Hooghiemstra 2004,"Muchoya, Uganda",-1.17,32.48,,,,Dry,,,,,,
+211,"Kendall, 1969; Stager and Mayewski, 1997; Stager et al., 1997; 2002; Talbot and Laerdal, 2000",Marchant & Hooghiemstra 2004,"Lake Victoria, Uganda",-1.5,32.5,,,,Dry,,,,,,
+212,"Barker et al., 1999;",Marchant & Hooghiemstra 2004,"Lake Kamilili, Kenya",1.1,34.3,,,,Dry,,,,,,
+213,"Halfmann and Johnson, 1988",Marchant & Hooghiemstra 2004,"Lake Turkana, Kenya",3.25,36.25,,,,Dry,,,,,,
+214,"Street and Grove, 1975; Butzer et al., 1972; Maitima, 1991",Marchant & Hooghiemstra 2004,"Lake Naivasha, Kenya",-1.2,36.45,,,,Dry,,,,,,
+215,"Telford and Lamb, 1999; Lamb et al., 2000",Marchant & Hooghiemstra 2004,"Lake Tilo, Ethiopia",7.03,38.05,,,,Dry,,,,,,
+216,"Gillespie et al., 1983",Marchant & Hooghiemstra 2004,"Lake Ziway-Shalla, Ethiopia",7.85,39.14,,,,Dry,,,,,,

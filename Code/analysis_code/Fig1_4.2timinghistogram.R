@@ -1,8 +1,11 @@
 #Code to reproduce Figure 1 of "The 4.2 ka event is not remarkable in the context of Holocene climate variability"
 
+#Author: Chris Hancock
+
 #Load packages
-library(ggplot2)
+library(tidyverse)
 library(egg)
+
 RAWtheme <- function(base_size = 8, base_family = "") {
   theme_bw(base_size = base_size, base_family = base_family) +
     theme(
@@ -18,7 +21,7 @@ RAWtheme <- function(base_size = 8, base_family = "") {
 }
 
 #Load Data  ----
-df <- read.csv('Lit Review_Metanalysis - MetaAnalysis - NEW.csv')
+df <- read.csv('metadata/Lit Review_Metanalysis - MetaAnalysis - NEW.csv')
 #Set up data to find
 res <- 0.1 #ka
 bins<-seq(3.4,5,res)
