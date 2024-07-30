@@ -81,7 +81,7 @@ Fig1b <- ggplot() +
   scale_x_continuous('duration (years)',limits=c(50,750),breaks=seq(100,700,100),expand=c(0,0),
                   labels=c(c('100','','300','','500','','700')))+
   scale_y_continuous('count (# of papers)',limits=c(0,15),expand=c(0,0))+
-  labs(title="4.2 ka event timing")+
+  labs(title="Duration")+
   RAWtheme()+
   theme(
     panel.grid.major.x = element_blank(),
