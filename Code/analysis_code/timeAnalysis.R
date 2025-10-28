@@ -159,4 +159,109 @@ ggsave(filename = paste0(figure_dir, "equalArea - temp&hydroDirectional",weight.
        plot = bothDirectional,
        width = 10, height = 3)
 
+# add some plots for either direction.
+library(scales)
+pc <- RColorBrewer::brewer.pal(3,"Set2")
 
+
+
+hgdf$clEither95 <-map_dbl(hgdf$clEither,'95%')
+hgdf$clEither90 <-map_dbl(hgdf$clEither,'90%')
+
+# Either plots ------------------------------------------------------------
+
+#make a plot. Any excursion, either direction
+hydroEither <- ggplot(hgdf) +
+  geom_col_pattern(aes(x = age,
+                       y = allEventEither,
+                       pattern = fdrSigLevelEither),
+                   fill = pc[1],
+                   pattern_angle = 45,
+                   pattern_density = 0.01,
+                   pattern_colour  = 'gray30',
+                   pattern_spacing = patternSpacing) +
+  geom_line(aes(x = age,y = clEither95), color = "black",linetype = 1) +
+  geom_label(aes(x = 800,y = clEither95[1] + 0.03),label = "95% cl",color = "black") +
+  geom_label(aes(x = 12000,y = 0.43),label = "A) Hydroclimate",color = "black",label.size = NA, hjust = 0) +
+
+  scale_pattern_discrete("FDR Significance Level",choices = c("none","stripe"), guide = "legend")+
+  scale_x_reverse("Age (BP)",breaks = seq(12000,000,by = -2000),position = "top",expand = c(0.01,0.01)) +
+  scale_y_continuous(labels = number_format(accuracy = 0.01),position = "left") +
+ # ylab("Spatially-weighted \n mean excursion frequency") +
+  xlab("Age (BP)") +
+  ylab("") +
+
+  theme_bw() +
+ # ggtitle("Hydroclimate") +
+  theme(legend.position="none")
+
+#
+#hydroEither
+
+
+tgdf$clEither95 <-map_dbl(tgdf$clEither,'95%')
+tgdf$clEither90 <-map_dbl(tgdf$clEither,'90%')
+
+#make a plot. Any excursion, either direction
+tempEither <- ggplot(tgdf) +
+  geom_col_pattern(aes(x = age,
+                       y = allEventEither,
+                       pattern = fdrSigLevelEither),
+                   fill = pc[2],
+                   pattern_angle = 45,
+                   pattern_density = 0.01,
+                   pattern_colour  = 'gray30',
+                   pattern_spacing = patternSpacing) +
+  geom_line(aes(x = age,y = clEither95), color = "black",linetype = 1) +
+  geom_label(aes(x = 800,y = clEither95[1]+ 0.03 ),label = "95% cl",color = "black") +
+  geom_label(aes(x = 12000,y = 0.345),label = "B) Temperature",color = "black",label.size = NA, hjust = 0) +
+
+  scale_pattern_discrete("FDR Significance Level",choices = c( "stripe","none"), guide = "legend")+
+  scale_x_reverse("Age (BP)",breaks = seq(12000,000,by = -2000),position = "top",expand = c(0.01,0.01)) +
+  scale_y_continuous(labels = number_format(accuracy = 0.01),position = "left") +
+  ylab("Spatially-weighted mean excursion frequency") +
+  xlab("Age (BP)") +
+  theme_bw() +
+ # ggtitle("Temperature") +
+  theme(legend.position="none",
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    axis.title.x = element_blank()
+  )
+
+#
+#tempEither
+
+
+
+bgdf$clEither95 <-map_dbl(bgdf$clEither,'95%')
+bgdf$clEither90 <-map_dbl(bgdf$clEither,'90%')
+
+#make a plot. Any excursion, either direction
+bothEither <- ggplot(bgdf) +
+  geom_col_pattern(aes(x = age,
+                       y = allEventEither,
+                       pattern = fdrSigLevelEither),
+                   fill = pc[3],
+                   pattern_angle = 45,
+                   pattern_density = 0.01,
+                   pattern_colour  = 'gray30',
+                   pattern_spacing = patternSpacing) +
+  geom_line(aes(x = age,y = clEither95), color = "black",linetype = 1) +
+  geom_label(aes(x = 800,y = clEither95[1] + 0.015 ),label = "95% cl",color = "black") +
+  geom_label(aes(x = 12000,y = 0.125),label = "C) Both",color = "black", hjust = 0,label.size = NA) +
+  scale_pattern_discrete("FDR Significance Level",choices = c( "none","stripe"), guide = "legend")+
+  scale_x_reverse("Age (BP)",breaks = seq(12000,000,by = -2000),position = "bottom",expand = c(0.01,0.01)) +
+  scale_y_continuous(breaks = c(0,0.05,0.1)) +
+  ylab("") +
+  #ylab("Spatially-weighted \n mean excursion frequency") +
+  xlab("Age (BP)") +
+  theme_bw() +
+ # ggtitle("Both") +
+  theme(legend.position="none")
+
+#
+#bothEither
+
+eitherDirectionPlot <- egg::ggarrange(plots = list(hydroEither,tempEither,bothEither),nrow = 3,widths = c(8,8,8), heights = c(3,3,3))
+ggsave(plot = eitherDirectionPlot,filename = paste0(figure_dir, "equalArea - either",weight.distance, ".pdf"),width = 10, height = 7)

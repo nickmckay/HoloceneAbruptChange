@@ -188,6 +188,9 @@ testFdr <- function(df,effN){
   df$fdrNeg10 <- fdr(df$pvalNeg,useEffN = effN,qlevel = .1)
   df$fdrPos05 <- fdr(df$pvalPos,useEffN = effN,qlevel = .05)
   df$fdrNeg05 <- fdr(df$pvalNeg,useEffN = effN,qlevel = .05)
+  df$fdrEither05 <- fdr(df$pvalEither,useEffN = effN,qlevel = .05)
+  df$fdrEither10 <- fdr(df$pvalEither,useEffN = effN,qlevel = .1)
+
 
   df$fdrSigLevelPos <- "none"
   df$fdrSigLevelPos[df$fdrPos10] <- "0.10"
@@ -196,6 +199,10 @@ testFdr <- function(df,effN){
   df$fdrSigLevelNeg <- "none"
   df$fdrSigLevelNeg[df$fdrNeg10] <- "0.10"
   df$fdrSigLevelNeg[df$fdrNeg05] <- "0.05"
+
+  df$fdrSigLevelEither <- "none"
+  df$fdrSigLevelEither[df$fdrEither10] <- "0.10"
+  df$fdrSigLevelEither[df$fdrEither05] <- "0.05"
   return(df)
 }
 
